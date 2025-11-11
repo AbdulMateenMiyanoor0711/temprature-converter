@@ -8,7 +8,8 @@ A simple and interactive temperature converter web application built with HTML, 
 
 ## 📸 Preview
 
-<img width="952" height="500" alt="Temperature Converter Preview" src="https://github.com/user-attachments/assets/YOUR-IMAGE-ID-HERE" />
+<img width="1231" height="790" alt="Screenshot 2025-11-11 211432" src="https://github.com/user-attachments/assets/b47e1fda-46d3-4f3e-827f-5611e7a541dc" />
+
 
 ## ✨ Features
 
@@ -44,12 +45,7 @@ Example: 68°F → (68 - 32) × 5/9 = 20°C
 1. **Clone the repository**
    ```bash
    git clone https://github.com/AbdulMateenMiyanoor0711/temperature-converter.git
-
-
-
-
 <div align="center">
-    
 ⭐ If you found this helpful, please give it a star! ⭐
 
 ![GitHub stars](https://img.shields.io/github/stars/AbdulMateenMiyanoor0711/my-resume?style=social)
