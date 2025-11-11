@@ -1,0 +1,97 @@
+#mainbody {
+    height: 600px;
+    width: 1100px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    display: flex;
+    padding: 150px;
+}
+
+#userside {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    color: #008080;
+    font-size: larger;
+    font-family: Tahoma;
+    border: #008080 solid 6px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#tempdisplay {
+    width: 400px;
+    background-color: #008080;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+
+
+}
+
+header {
+    height: 40px;
+    font-size: xx-large;
+}
+
+#convertbutton {
+    height: 50px;
+    width: 180px;
+    background-color: #008080;
+    color: white;
+    font-size: large;
+    border-radius: 50px;
+}
+
+#displaydegree {
+    font-size: xx-large;
+    padding-left: 45px;
+}
+
+#displaytemp {
+    font-size: 3em;
+    padding-right: 30px;
+    display: flex;
+
+}
+
+#teminput {
+    font-size: large;
+    height: 30px;
+    width: 250px;
+}
+
+#selecttemp {
+    height: 35px;
+    font-size: large;
+
+}
+
+#boxdiv {
+    display: flex;
+}
+
+#tempchange {
+    font-size: large;
+    height: 35px;
+    width: 320px;
+}
+
+#userupper {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    gap: 55px;
+}
+
+#userlower {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}

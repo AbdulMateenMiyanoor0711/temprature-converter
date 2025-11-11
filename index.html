@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main id="mainbody">
+      <div id="userside">
+        <div id="userupper">
+          <header>Enter Temperature</header>
+
+          <div id="tempdata">
+            <head class="degree">
+              Degree</head
+            ><br />
+            <div id="boxdiv">
+              <input type="number" id="teminput" placeholder="Enter a number"   >
+              <select id="selectdegree">
+                <option value="°C" id="celsius">(°C)</option>
+                <option value="°F" id="fahrenheit">(°F)</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <head>
+              Convert In</head
+            ><br />
+            <select id="tempchange">
+              <option value="°C" id="celsius">Celsius (°C)</option>
+              <option value="°F" id="fahrenheit">Fahrenheit (°F)</option>
+            </select>
+          </div>
+          <div id="convert"></div>
+        </div>
+        <div id="userlower">
+          <button
+            id="convertbutton"
+            onclick="changetemp()"
+            onchange="changetemp()">
+            Convert
+          </button>
+        </div>
+      </div>
+
+      <div id="tempdisplay">
+        <div id="displaydegree"></div>
+        <div id="displaytemp"></div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
